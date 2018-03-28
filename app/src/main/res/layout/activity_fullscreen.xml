@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_gui"
+    tools:context="id.co.imastudio.adabkepadaorangtua.FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagePlay"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_play" />
+
+        <ImageView
+            android:id="@+id/imageOption"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_option" />
+
+        <ImageView
+            android:id="@+id/imageAbout"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_about"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imageExit"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_exit" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
